@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	background-color: #232323;
+	font-family: 'Metamorphous', cursive;
+}
+
+#header{
+	transition: background 0.6s;
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background: maroon;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+
+}
+
+#colorCode{
+	letter-spacing: 2px;
+	font-size: 200%;
+}
+
+.Squares{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+	background-color: purple;
+	border-radius: 50%;
+	transition: background 0.6s;
+}
+
+#container{
+	margin: 30px auto;
+	max-width: 600px;
+}
+
+#btnStrip{
+	margin: 0;
+	background-color: white;
+	text-align: center;
+	color:maroon;
+	text-transform: uppercase;
+
+}
+
+button{
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: maroon;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+	border: none;
+	background: none;
+	font-family: 'Metamorphous', cursive;
+}
+
+button:hover {
+	color: white;
+	background: maroon;
+}
+
+#blank{
+	display: inline-block;
+	width: 20%;
+}
+
+.selected{
+	color: white;
+	background-color:maroon;
+}
+
+#last{
+	float: right;
+	padding-right:5px;
+}
